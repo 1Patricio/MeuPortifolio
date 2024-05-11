@@ -1,0 +1,119 @@
+/* *{
+
+} */
+.clear{
+    clear: both; /*limpar as flutuações*/
+}
+header{
+    display: flex;
+    box-sizing: border-box;
+    background-image: url("./imagens/capa.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: all;
+    height: 600px;
+    margin: -10px;
+}
+
+header div li{
+    margin: 8px 0px 0px;
+    padding: 0px 0px 0px 24px;
+    color: white;
+    display: flex;
+    position: relative;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+header div#cabecalho{
+   display: flex;
+    margin: 30px 0px 0px 500px;
+}
+div#cabecalho a {
+    padding-left: 30px;
+}
+i{
+    color: white;
+    font-size: 30px;
+}
+div ul{
+    display: flex;
+    list-style: none;
+    margin-top: -10px;
+}
+article#sobremim{
+    width: 60%;
+    float: right;
+    margin: 90px 0 0 0;
+}
+article#sobremim hr{
+    width: 470px;
+    float: left;
+    border: 2px rgb(78, 74, 74) solid;
+    border-radius: 10px;
+    margin-top: -30px;
+} 
+article#sobremim p{
+    width: 700px;
+    font-family: "Aldrich", sans-serif;
+    font-weight: 500;
+    font-style: normal;   
+    font-size: 18px; 
+    width: 60%;
+}
+article#sobremim p#nome{
+    font-family: "Bacasime Antique", serif;
+    font-weight: 600;
+    font-style: normal;   
+    font-size: 28px;
+    margin: -15px 0 50px 0;
+}
+article#sobremim h2{
+    font-family:"Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+}
+section img{
+    width: 40%;
+    margin: 10px 60px 0px;
+    width: 400px;
+    float: right;
+}
+h2#projetos{
+    margin: 50px auto 0 auto;
+    text-align: center;
+    font-family:"Aclonica", sans-serif;
+    font-size: 32px;
+    background: #000;
+    color: white;
+
+}
+.projects{
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.proj img, .proj p{
+    width: 280px;
+    height: 152px;
+    color: white;
+}
+.proj{
+    margin-bottom: 5px;
+}
+.proj p, .proj h3{
+    margin-left: 60px;
+    margin-bottom: -15px;
+    color: white;
+}
+.proj{
+    padding: 20px;
+}
