@@ -92,6 +92,7 @@ h2#projetos{
     font-size: 32px;
     background: #000;
     color: white;
+    padding-top: 18px;
 
 }
 .projects{
@@ -106,7 +107,7 @@ h2#projetos{
     height: 152px;
     color: white;
 }
-.proj{
+.proj img{
     margin-bottom: 5px;
 }
 .proj p, .proj h3{
